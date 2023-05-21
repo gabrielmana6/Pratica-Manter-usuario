@@ -47,8 +47,8 @@ export class MantemUsuarioComponent implements OnInit{
         this.usuarios.push(novoUsuario)
     )} else {
       this.usuarioService.atualizar(this.usuarioDeManutencao).subscribe(
-        usuario =>
-        usuario = this.usuarioDeManutencao
+        usuarioAtualizado =>
+        usuarioAtualizado = this.usuarioDeManutencao
       )
     }
 
